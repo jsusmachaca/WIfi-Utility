@@ -104,14 +104,14 @@ class main:
         sp.call("nmcli device wifi rescan", shell=True)
         runing = """nmcli device wifi list | sed 's/* //'  | awk '{print $2}' > /home/jisas/.config/wifilist.txt """
         a = sp.call(runing, shell=True)
-        file = open("/home/jisas/.config//wifilist.txt", "r")
+        file = open("/home/jisas/.config/wifilist.txt", "r")
         r = file.read()
         return r
 
     def connect(self):
         runing = """nmcli | grep " conectado" | awk '{print " "$4}' > /home/jisas/.config/conection.txt """
         a = sp.call(runing, shell=True)
-        file = open("/home/jisas/.config//conection.txt", "r")
+        file = open("/home/jisas/.config/conection.txt", "r")
         r = file.read()
         return r
 
