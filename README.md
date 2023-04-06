@@ -8,5 +8,8 @@ Utilidad gráfica para conectarse a Internet.
 
 ```bash 
 git clone https://github.com/JsasMachaca/Wifi-Utility.git && sudo pacman -S tk
+```
+
+```bash
 cd Wifi-Utility
 ```
