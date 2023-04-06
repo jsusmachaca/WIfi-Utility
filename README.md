@@ -7,6 +7,6 @@ Utilidad gráfica para conectarse a Internet.
 # Instalación 
 
 ```bash 
-git clone https://github.com/JsasMachaca/Wifi-Utility.git
-
+git clone https://github.com/JsasMachaca/Wifi-Utility.git && sudo pacman -S tk
+cd Wifi-Utility
 ```
